@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/scratch/gpfs/wcukier/Polarized_Ray_Tracing'
+rm logs/*
+make: Leaving directory '/scratch/gpfs/wcukier/Polarized_Ray_Tracing'
+ 

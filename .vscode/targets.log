@@ -1,0 +1,382 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jan 16 13:34:32 2023
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/wcukier/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+MODULEPATH = /home/wcukier/Modules/modulefiles:/etc/scl/modulefiles:/home/wcukier/Modules/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles:/usr/local/share/Modules/modulefiles:/opt/share/Modules/modulefiles:/usr/licensed/Modules/modulefiles
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+define BASH_FUNC_ml%%
+() {  module ml "$@"
+}
+endef
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /scratch/gpfs/wcukier/Polarized_Ray_Tracing
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /usr/bin/make
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# automatic
+@F = $(notdir $@)
+# environment
+HISTCONTROL = ignoredups
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOADEDMODULES_modshare = anaconda3/2021.11:1:julia/1.7.1:1
+# environment
+XDG_DATA_DIRS = /home/wcukier/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-ryS5ma2UeM,guid=0f958622485e32b3c88439b163c598b2
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# environment
+VSCODE_CWD = /home/wcukier
+# environment
+MODULES_RUN_QUARANTINE = LD_LIBRARY_PATH LD_PRELOAD
+# environment
+MIG_PARTED_CONFIG_FILE = /etc/nvidia-mig-manager/config.yaml
+# environment
+_LMFILES__modshare = /usr/licensed/Modules/modulefiles/anaconda3/2021.11:1:/usr/licensed/Modules/modulefiles/julia/1.7.1:1
+# environment
+SSH_CONNECTION = 128.112.173.6 56196 128.112.173.209 22
+# environment
+PATH = /home/wcukier/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/remote-cli:/usr/licensed/anaconda3/2021.11/bin:/usr/licensed/julia/1.7.1/bin:/home/wcukier/.local/bin:/home/wcukier/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/dell/srvadmin/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/156912
+# environment
+MODULES_CMD = /usr/share/Modules/libexec/modulecmd.tcl
+# environment
+define BASH_FUNC_scl%%
+() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+endef
+# environment
+CONDA_PREFIX = /usr/licensed/anaconda3/2021.11
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/156912/vscode-ipc-dbdf5caa-b062-4d2c-81bd-c7732d558e39.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+SSH_AUTH_SOCK = /run/user/156912/vscode-ssh-auth-sock-784303993
+# automatic
+%F = $(notdir $%)
+# environment
+KDEDIRS = /usr
+# environment
+DISPLAY = localhost:11.0
+# environment
+CONDA_EXE = /usr/licensed/anaconda3/2021.11/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /scratch/gpfs/wcukier/Polarized_Ray_Tracing
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MANPATH = /usr/share/man:/usr/local/share/man:/opt/puppetlabs/puppet/share/man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/wcukier
+# environment
+MODULEPATH_modshare = /opt/share/Modules/modulefiles:1:/usr/local/share/Modules/modulefiles:1:/usr/licensed/Modules/modulefiles:1:/usr/share/Modules/modulefiles:1:/etc/modulefiles:1:/usr/share/modulefiles:1
+# environment
+MODULESHOME = /usr/share/Modules
+# environment
+LOGNAME = wcukier
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# automatic
++F = $(notdir $+)
+# environment
+SELINUX_LEVEL_REQUESTED = 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+HOSTNAME = stellar-vis1.princeton.edu
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+MIG_PARTED_CHECKPOINT_FILE = /var/lib/nvidia-mig-manager/checkpoint.json
+# environment
+SHLVL = 5
+# environment
+define BASH_FUNC_switchml%%
+() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+endef
+# environment
+XDG_SESSION_ID = 24562
+# environment
+USER = wcukier
+# makefile
+.DEFAULT_GOAL := clean
+# default
+MAKECMDGOALS := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# environment
+PATH_modshare = /usr/sbin:1:/home/wcukier/.local/bin:1:/home/wcukier/bin:1:/usr/bin:1:/opt/puppetlabs/bin:1:/opt/dell/srvadmin/bin:1:/usr/licensed/anaconda3/2021.11/bin:1:/usr/local/sbin:1:/usr/licensed/julia/1.7.1/bin:1:/usr/share/Modules/bin:1:/usr/local/bin:1
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+define BASH_FUNC_module%%
+() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+endef
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 128.112.173.6 56196 22
+# environment
+MAIL = /var/spool/mail/wcukier
+# environment
+LOADEDMODULES = julia/1.7.1:anaconda3/2021.11
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+BROWSER = /home/wcukier/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/helpers/browser.sh
+# environment
+define BASH_FUNC_which%%
+() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+endef
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# environment
+SELINUX_USE_CURRENT_RANGE = 
+# automatic
+<F = $(notdir $<)
+# environment
+_LMFILES_ = /usr/licensed/Modules/modulefiles/julia/1.7.1:/usr/licensed/Modules/modulefiles/anaconda3/2021.11
+# environment
+MIG_PARTED_HOOKS_FILE = /etc/nvidia-mig-manager/hooks.yaml
+# environment
+LC_ALL = C
+# environment
+_LOCAL_OLD_PS1 = 
+# environment
+CONDA_PYTHON_EXE = /usr/licensed/anaconda3/2021.11/bin/python
+# automatic
+^F = $(notdir $^)
+# environment
+SELINUX_ROLE_REQUESTED = 
+# default
+SUFFIXES := 
+# environment
+HISTSIZE = 1000
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# environment
+LANG = C
+# environment
+which_declare = declare -f
+# environment
+COBBLER_SERVER = 10.33.80.10
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=15/131=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 103, inode 127026734): 34 files, no impossibilities.
+
+# 34 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-22 16:38:20.212529384
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 4):
+	rm logs/*
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 40 / storage = 475 B / avg = 11 B
+# current buf: size = 8162 B / used = 475 B / count = 40 / avg = 11 B
+
+# strcache performance: lookups = 45 / hit rate = 11%
+# hash-table stats:
+ 
+# Load=40/8192=0%, Rehash=0, Collisions=1/45=2%
+# Finished Make data base on Mon Jan 16 13:34:32 2023
+
+ 

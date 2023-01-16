@@ -1,0 +1,17 @@
+logs/*
+outputs/*
+*.png
+Polar/data/*
+*.o
+*.out
+Polar/geokerr/synchotron/image/viz/*
+Polar/geokerr/synchotron/image/viz/share/julia/artifacts/16154f990153825ec24b52aac11165df2084b9dc/share/licenses/Libgpg_error/COPYING
+*.mod
+*/geodesics*
+*/*/geodesics_sync/*
+*.gif
+*.data*.h
+0_stored_data/*/densities/*
+*.dat
+*.h5
+*.outputs*.log
